@@ -17,5 +17,5 @@
     "ps":  { "min": 0, "latest": 0 }
   },
 
-  "_state": "2026-09-21: Bazaar has hokm 1.3.5 (123) and shelem 0.3.4 (26). Myket has neither published yet and Play is switched off, so both stay at 0 and say nothing. No app is forced: every min is 0."
+  "_state": "2026-09-21: Bazaar has hokm 1.3.5 (123) and shelem 0.3.4 (26) LIVE. hokm 1.3.8 (126) and shelem 0.3.8 (30) were uploaded and committed the same day and are in review - latest stays at the live codes until --check shows the new ones, because pointing users at a store page that still offers the old build is worse than saying nothing. Myket has neither published yet and Play is switched off, so both stay at 0. No app is forced: every min is 0."
 }
