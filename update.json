@@ -1,7 +1,8 @@
 {
   "_note": "The update policy every Rahpoo app reads at launch. This copy is only for review; the live one is the root of github.com/MajidsaffarianZadeh/rahpoo-config. One key per app - an app that is not listed is not governed. See docs/update-gate.md.",
   "_rule": "Raise min ONLY after that exact versionCode is live and approved in that exact market. latest = what the market really has, 0 = say nothing.",
-  "_markets": "ca = Cafe Bazaar, mk = Myket, ps = Google Play, all = fallback for a market with no entry of its own.",
+  "_nikipoo": "The nikipoo family (nikipoo, tizbin, temsah) carries NO latest key on purpose: its client asks the store itself (BazaarUpdater on Bazaar, Play In-App Updates, the myket://check-update intent) instead of a hand-kept number. Only min lives here, for the one thing no store can say - this build may no longer run. Its client also ignores min whenever the store reports the installed build is already the newest, so an early min cannot strand anyone; that guard does NOT work on Myket, which answers nothing. versionCode bases differ: nikipoo 50000+, tizbin and temsah 10000+.",
+  "_markets": "ca = Cafe Bazaar, mk = Myket, all = fallback for a market with no entry of its own. Google Play is ps for hokm/shelem (Java client) and gp for the nikipoo family (Flutter client reads the market string straight from its manifest) - each app must be keyed the way its own build spells it.",
 
   "hokm": {
     "all": { "min": 0, "latest": 0 },
@@ -15,6 +16,27 @@
     "ca":  { "min": 0, "latest": 26 },
     "mk":  { "min": 0, "latest": 0 },
     "ps":  { "min": 0, "latest": 0 }
+  },
+
+  "nikipoo": {
+    "all": { "min": 0 },
+    "ca":  { "min": 0 },
+    "mk":  { "min": 0 },
+    "gp":  { "min": 0 }
+  },
+
+  "tizbin": {
+    "all": { "min": 0 },
+    "ca":  { "min": 0 },
+    "mk":  { "min": 0 },
+    "gp":  { "min": 0 }
+  },
+
+  "temsah": {
+    "all": { "min": 0 },
+    "ca":  { "min": 0 },
+    "mk":  { "min": 0 },
+    "gp":  { "min": 0 }
   },
 
   "_state": "2026-09-21: Bazaar has hokm 1.3.5 (123) and shelem 0.3.4 (26) LIVE. hokm 1.3.8 (126) and shelem 0.3.8 (30) were uploaded and committed the same day and are in review - latest stays at the live codes until --check shows the new ones, because pointing users at a store page that still offers the old build is worse than saying nothing. Myket has neither published yet and Play is switched off, so both stay at 0. No app is forced: every min is 0."
