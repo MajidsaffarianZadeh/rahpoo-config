@@ -52,6 +52,12 @@
     "mk":  { "min": 0, "latest": 0 },
     "ps":  { "min": 0, "latest": 0 }
   },
+  "twentynine": {
+    "all": { "min": 0, "latest": 0 },
+    "ca":  { "min": 0, "latest": 0 },
+    "mk":  { "min": 0, "latest": 0 },
+    "ps":  { "min": 0, "latest": 0 }
+  },
 
   "nikipoo": {
     "all": { "min": 0 },
@@ -74,5 +80,5 @@
     "gp":  { "min": 0 }
   },
 
-  "_state": "2026-09-23: --check shows Bazaar serving hokm 1.3.8 (126) and shelem 0.3.8 (30), and Myket has approved hokm 1.3.8 (126), so latest follows those. Shelem has nothing approved on Myket yet (0.3.8 is in review), so its mk stays 0. hokm 1.3.9 (127) and shelem 0.3.9 (31) went to Bazaar review today and hokm 1.3.9 to Myket review - latest moves to them only once --check shows them live. No app is forced: every min is 0. 2026-09-24: tarneeb, callbreak, spades and hearts registered with every number 0 - none is live in any market yet. haftkhabis registered the same way the same day."
+  "_state": "2026-09-23: --check shows Bazaar serving hokm 1.3.8 (126) and shelem 0.3.8 (30), and Myket has approved hokm 1.3.8 (126), so latest follows those. Shelem has nothing approved on Myket yet (0.3.8 is in review), so its mk stays 0. hokm 1.3.9 (127) and shelem 0.3.9 (31) went to Bazaar review today and hokm 1.3.9 to Myket review - latest moves to them only once --check shows them live. No app is forced: every min is 0. 2026-09-24: tarneeb, callbreak, spades and hearts registered with every number 0 - none is live in any market yet. haftkhabis and twentynine registered the same way the same day."
 }
