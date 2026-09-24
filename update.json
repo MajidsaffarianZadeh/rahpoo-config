@@ -2,7 +2,7 @@
   "_note": "The update policy every Rahpoo app reads at launch. This copy is only for review; the live one is the root of github.com/MajidsaffarianZadeh/rahpoo-config. One key per app - an app that is not listed is not governed. See docs/update-gate.md.",
   "_rule": "Raise min ONLY after that exact versionCode is live and approved in that exact market. latest = what the market really has, 0 = say nothing.",
   "_nikipoo": "The nikipoo family (nikipoo, tizbin, temsah) carries NO latest key on purpose: its client asks the store itself (BazaarUpdater on Bazaar, Play In-App Updates, the myket://check-update intent) instead of a hand-kept number. Only min lives here, for the one thing no store can say - this build may no longer run. Its client also ignores min whenever the store reports the installed build is already the newest, so an early min cannot strand anyone; that guard does NOT work on Myket, which answers nothing. versionCode bases differ: nikipoo 50000+, tizbin and temsah 10000+.",
-  "_markets": "ca = Cafe Bazaar, mk = Myket, all = fallback for a market with no entry of its own. Google Play is ps for hokm/shelem (Java client) and gp for the nikipoo family (Flutter client reads the market string straight from its manifest) - each app must be keyed the way its own build spells it.",
+  "_markets": "ca = Cafe Bazaar, mk = Myket, all = fallback for a market with no entry of its own. Google Play is ps for the Java card games (hokm, shelem, tarneeb, callbreak, spades, hearts) and gp for the nikipoo family (Flutter client reads the market string straight from its manifest) - each app must be keyed the way its own build spells it.",
 
   "hokm": {
     "all": { "min": 0, "latest": 0 },
@@ -14,6 +14,34 @@
   "shelem": {
     "all": { "min": 0, "latest": 0 },
     "ca":  { "min": 0, "latest": 30 },
+    "mk":  { "min": 0, "latest": 0 },
+    "ps":  { "min": 0, "latest": 0 }
+  },
+
+  "tarneeb": {
+    "all": { "min": 0, "latest": 0 },
+    "ca":  { "min": 0, "latest": 0 },
+    "mk":  { "min": 0, "latest": 0 },
+    "ps":  { "min": 0, "latest": 0 }
+  },
+
+  "callbreak": {
+    "all": { "min": 0, "latest": 0 },
+    "ca":  { "min": 0, "latest": 0 },
+    "mk":  { "min": 0, "latest": 0 },
+    "ps":  { "min": 0, "latest": 0 }
+  },
+
+  "spades": {
+    "all": { "min": 0, "latest": 0 },
+    "ca":  { "min": 0, "latest": 0 },
+    "mk":  { "min": 0, "latest": 0 },
+    "ps":  { "min": 0, "latest": 0 }
+  },
+
+  "hearts": {
+    "all": { "min": 0, "latest": 0 },
+    "ca":  { "min": 0, "latest": 0 },
     "mk":  { "min": 0, "latest": 0 },
     "ps":  { "min": 0, "latest": 0 }
   },
@@ -39,5 +67,5 @@
     "gp":  { "min": 0 }
   },
 
-  "_state": "2026-09-23: --check shows Bazaar serving hokm 1.3.8 (126) and shelem 0.3.8 (30), and Myket has approved hokm 1.3.8 (126), so latest follows those. Shelem has nothing approved on Myket yet (0.3.8 is in review), so its mk stays 0. hokm 1.3.9 (127) and shelem 0.3.9 (31) went to Bazaar review today and hokm 1.3.9 to Myket review - latest moves to them only once --check shows them live. No app is forced: every min is 0."
+  "_state": "2026-09-23: --check shows Bazaar serving hokm 1.3.8 (126) and shelem 0.3.8 (30), and Myket has approved hokm 1.3.8 (126), so latest follows those. Shelem has nothing approved on Myket yet (0.3.8 is in review), so its mk stays 0. hokm 1.3.9 (127) and shelem 0.3.9 (31) went to Bazaar review today and hokm 1.3.9 to Myket review - latest moves to them only once --check shows them live. No app is forced: every min is 0. 2026-09-24: tarneeb, callbreak, spades and hearts registered with every number 0 - none is live in any market yet."
 }
