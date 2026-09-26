@@ -6,14 +6,14 @@
 
   "hokm": {
     "all": { "min": 0, "latest": 0 },
-    "ca":  { "min": 0, "latest": 126 },
-    "mk":  { "min": 0, "latest": 126 },
+    "ca":  { "min": 0, "latest": 133 },
+    "mk":  { "min": 0, "latest": 127 },
     "ps":  { "min": 0, "latest": 0 }
   },
 
   "shelem": {
     "all": { "min": 0, "latest": 0 },
-    "ca":  { "min": 0, "latest": 30 },
+    "ca":  { "min": 0, "latest": 39 },
     "mk":  { "min": 0, "latest": 0 },
     "ps":  { "min": 0, "latest": 0 }
   },
