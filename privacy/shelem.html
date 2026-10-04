@@ -25,13 +25,13 @@
 </head>
 <body>
 
-<h1>سیاست حریم خصوصی — بازی شلم</h1>
+<h1>سیاست حریم خصوصی — شلم</h1>
 <p class="meta">
-  برنامه: <code>com.rahpoo.shelem</code> · آخرین به‌روزرسانی: ۷ مهر ۱۴۰۵ (۲۹ سپتامبر ۲۰۲۶)
+  برنامه: <code>com.rahpoo.shelem</code> · آخرین به‌روزرسانی: ۱۲ مهر ۱۴۰۵ (۴ اکتبر ۲۰۲۶)
 </p>
 
 <p>
-  «شلم» یک بازی ورق آفلاین است. برای بازی‌کردن هیچ حسابی نمی‌سازید، هیچ شماره یا ایمیلی
+  «شلم» یک بازی ورقِ آفلاین است. برای بازی‌کردن هیچ حسابی نمی‌سازید، هیچ شماره یا ایمیلی
   نمی‌دهید و هیچ‌چیزی از شما خواسته نمی‌شود. آنچه در این صفحه می‌خوانید کوتاه است، چون کاری که
   برنامه با داده‌ها می‌کند کوتاه است.
 </p>
@@ -42,20 +42,25 @@
   حذفِ برنامه پاک می‌شوند:
 </p>
 <ul>
-  <li>نامی که برای خودتان انتخاب می‌کنید</li>
-  <li>رکوردها: بردها، دورها، شلم‌ها، استریک روزانه و نشان‌هایی که گرفته‌اید</li>
-  <li>تنظیمات: زبان، صدا، دست‌کارت، پشتِ کارت، رومیزی، سرعت بازی، یار و سختیِ حریف‌ها</li>
+  <li>نامی که برای خودتان انتخاب می‌کنید (هر چیزی می‌تواند باشد؛ نام واقعی لازم نیست)</li>
+  <li>رکوردها: بردها، دورها، استریک روزانه و نشان‌هایی که گرفته‌اید</li>
+  <li>تنظیمات: زبان، صدا، دست‌کارت، پشتِ کارت و قوانینی که انتخاب کرده‌اید</li>
   <li>بازی نیمه‌کاره، تا بتوانید از همان‌جا ادامه بدهید</li>
-  <li>اینکه «حذف تبلیغ» را خریده‌اید یا نه</li>
+  <li>در نسخه‌ی کافه‌بازار و مایکت: اینکه «حذف تبلیغ» را خریده‌اید یا نه</li>
 </ul>
 
 <h2>چه چیزی از گوشی بیرون می‌رود</h2>
 <p>این‌ها تنها بخش‌های برنامه‌اند که با اینترنت کار دارند:</p>
 <ul>
   <li>
-    <strong>تبلیغات، فقط در نسخه‌ی کافه‌بازار و مایکت (Adivery).</strong> برای نمایش تبلیغ،
-    اطلاعاتی مثل شناسه‌ی تبلیغاتیِ دستگاه، نوع دستگاه و شبکه به Adivery می‌رسد. نسخه‌ی گوگل‌پلی
-    هیچ تبلیغی ندارد و مجوز شناسه‌ی تبلیغاتی (<code>AD_ID</code>) هم از آن حذف شده است.
+    <strong>تبلیغات (Google AdMob).</strong> برای نمایش تبلیغ، اطلاعاتی مثل
+    <em>شناسه‌ی تبلیغاتی گوگل</em> روی دستگاه، نوع دستگاه و کشور به گوگل می‌رسد. این شناسه را
+    هر وقت بخواهید می‌توانید در تنظیمات اندروید («تنظیمات ← گوگل ← تبلیغات») صفر یا حذف کنید.
+  </li>
+  <li>
+    <strong>تبلیغات در نسخه‌ی کافه‌بازار و مایکت (Adivery).</strong> فقط در این دو نسخه، وقتی
+    AdMob تبلیغی نداشته باشد، تبلیغ از Adivery می‌آید و همان نوع اطلاعات (شناسه‌ی تبلیغاتی، نوع
+    دستگاه، شبکه) به آن می‌رسد. نسخه‌ی گوگل‌پلی Adivery ندارد.
   </li>
   <li>
     <strong>آمار استفاده (Firebase Analytics).</strong> رویدادهای بی‌نام‌ونشانِ بازی — مثل
@@ -91,7 +96,8 @@
   نظر می‌رسد، پس صریح می‌گوییم: <strong>هیچ موقعیت مکانی‌ای خوانده، ذخیره یا ارسال
   نمی‌شود.</strong> این مجوز فقط تا اندروید ۱۱ اعلام شده (<code>maxSdkVersion=30</code>) و
   تنها دلیلش این است که خودِ اندروید در آن نسخه‌ها نتیجه‌ی اسکنِ بلوتوث را پشت این مجوز گذاشته
-  بود. در اندروید ۱۲ و بالاتر، مجوز اسکن با پرچم <code>neverForLocation</code> اعلام شده.
+  بود. در اندروید ۱۲ و بالاتر، مجوز اسکن با پرچم <code>neverForLocation</code> اعلام شده، یعنی
+  اندروید تضمین می‌کند از آن برای مکان‌یابی استفاده نمی‌شود.
 </p>
 
 <h2>بازی گروهی با بلوتوث</h2>
@@ -101,14 +107,25 @@
   در کار نیست و هیچ‌چیز از این بازی برای ما یا هیچ‌کس دیگری فرستاده نمی‌شود.
 </p>
 
-<h2>کودکان، خرید، حق شما</h2>
+<h2>کودکان</h2>
 <p>
-  بازی برای همه‌ی سنین مناسب است ولی مخاطبِ هدفش کودکان نیست، و از هیچ کاربری — از جمله
-  کودکان — عمداً اطلاعاتی جمع‌آوری نمی‌کند. بازی کامل و رایگان است؛ در نسخه‌ی کافه‌بازار و
-  مایکت یک خریدِ اختیاری هست، «حذف تبلیغ»، که پرداختش را خودِ فروشگاه انجام می‌دهد و ما هیچ
-  اطلاعات بانکی یا حسابی از شما نمی‌بینیم. اشتراکی در کار نیست.
-  چون چیزی به نام شما نزد ما نیست، چیزی هم برای پس‌گرفتن یا حذف‌کردن وجود ندارد؛ با حذف
-  برنامه هر چیزی که روی گوشی ذخیره شده بود پاک می‌شود.
+  این بازی برای همه‌ی سنین مناسب است ولی مخاطبِ هدفش کودکان نیست و عمداً هیچ اطلاعاتی از هیچ
+  کاربری — از جمله کودکان — جمع‌آوری نمی‌کند.
+</p>
+
+<h2>خرید و پرداخت</h2>
+<p>
+  بازی کامل و رایگان است. نسخه‌ی گوگل‌پلی هیچ خریدی ندارد. در نسخه‌ی کافه‌بازار و مایکت تنها خریدِ
+  برنامه اختیاری است: «حذف تبلیغ». پرداخت را خودِ فروشگاه انجام می‌دهد و ما هیچ اطلاعات بانکی یا
+  حسابی از شما نمی‌بینیم؛ برنامه فقط می‌داند که این خرید انجام شده است. اشتراکی در کار نیست.
+  هیچ شرط‌بندی یا قماری هم در کار نیست: نه پول، نه سکه، نه ژتون.
+</p>
+
+<h2>حق شما</h2>
+<p>
+  چون چیزی به نام شما نزد ما نیست، چیزی هم برای پس‌گرفتن یا حذف‌کردن وجود ندارد: با حذف
+  برنامه، هر چیزی که روی گوشی ذخیره شده بود پاک می‌شود. برای شناسه‌ی تبلیغاتی هم تنظیماتِ
+  خودِ اندروید در اختیار شماست.
 </p>
 
 <h2>تماس</h2>
@@ -124,28 +141,32 @@
 
 <div class="en" lang="en">
   <h1>Privacy Policy — Shelem</h1>
-  <p class="meta">App: <code>com.rahpoo.shelem</code> · Last updated: 29 September 2026</p>
+  <p class="meta">App: <code>com.rahpoo.shelem</code> · Last updated: 4 October 2026</p>
 
   <p>
-    Shelem is an offline card game. You never create an account, and the app never asks for
-    your name, phone number or email.
+    Shelem is an offline card game. You never create an account, and the app never asks for your
+    name, phone number or email.
   </p>
 
   <h2>Stays on your phone</h2>
   <p>
     Kept only in the app's own storage, never sent to us, and deleted when you uninstall: the
-    display name you choose, your records (wins, rounds, shelems, daily streak, badges), your
-    settings (language, sound, card set, card back, table felt, game speed, partner and rival
-    difficulty), any game you left unfinished, and whether you bought "remove ads".
+    display name you choose, your records (wins, rounds, daily streak, badges), your settings
+    (language, sound, card set, card back, the rules you picked), any game you left unfinished,
+    and, in the Cafe Bazaar and Myket builds, whether you bought "remove ads".
   </p>
 
   <h2>Leaves your phone</h2>
   <ul>
     <li>
-      <strong>Adivery</strong> serves the ads, in the Cafe Bazaar and Myket builds only, and
-      receives the device's advertising ID, device type and network to do it. The Google Play
-      build shows no ads at all, and its advertising-ID permission (<code>AD_ID</code>) is
-      removed outright.
+      <strong>Google AdMob</strong> serves the ads. To do that, Google receives the device's
+      advertising ID, device type and country. You can reset or delete that ID at any time in
+      Android's own settings (Settings → Google → Ads).
+    </li>
+    <li>
+      <strong>Adivery</strong>, in the Cafe Bazaar and Myket builds only, serves an ad when AdMob
+      has none, and receives the same kind of information. The Google Play build does not
+      contain it.
     </li>
     <li>
       <strong>Firebase Analytics</strong> receives anonymous gameplay events — a game started, a
@@ -192,12 +213,14 @@
 
   <h2>Children, purchases, your rights, contact</h2>
   <p>
-    The game suits all ages but is not directed at children, and collects no personal information
-    from anyone. The game is complete and free; the Cafe Bazaar and Myket builds offer one
-    optional purchase, "remove ads", paid through the store itself, so we never see any payment
-    or account details. There are no subscriptions. Since we hold nothing
-    in your name, there is nothing to request or erase — uninstalling removes everything stored on
-    the device. Questions: <a href="mailto:support@rahpoovas.com">support@rahpoovas.com</a>.
+    The game suits all ages but is not directed at children, and it deliberately collects no
+    personal information from anyone. The game is complete and free. The Google Play build has no
+    purchases; the Cafe Bazaar and Myket builds have one optional purchase, "remove ads", paid
+    through the store itself, so we never see any payment or account details. There are no
+    subscriptions, and no betting or gambling of any kind: no money, coins or chips. Since we hold
+    nothing in your name, there is nothing to request or erase — uninstalling removes everything
+    stored on the device. Questions:
+    <a href="mailto:support@rahpoovas.com">support@rahpoovas.com</a>.
   </p>
 </div>
 
