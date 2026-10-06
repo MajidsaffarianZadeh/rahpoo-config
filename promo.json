@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "hubPackage": "com.rahpoo.nikipoo",
+  "apps": [
+    {
+      "name": "مدرسه نیکی‌پو — بازی‌های آموزشی دبستان",
+      "package": "com.rahpoo.nikipoo",
+      "icon": "assets/promo/icons/nikipoo.png",
+      "isHub": true,
+      "tagline": "همهٔ بازی‌های پایهٔ اول تا ششم، یک‌جا"
+    },
+    {
+      "name": "تیزبین باش — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.tizbin",
+      "icon": "assets/promo/icons/tizbin.png",
+      "isHub": false,
+      "tagline": "نشانه‌های فارسی را با چشمان تیزت پیدا کن",
+      "live": false
+    },
+    {
+      "name": "تمساح شکمو — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.temsah",
+      "icon": "assets/promo/icons/temsah.png",
+      "isHub": false,
+      "tagline": "بزرگ‌تر و کوچک‌تر را به تمساح یاد بده",
+      "live": false
+    },
+    {
+      "name": "تند و تیز — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.tondotiz",
+      "icon": "assets/promo/icons/tondotiz.png",
+      "isHub": false,
+      "tagline": "تند حساب کن، تیز بزن — بوند، جدول ضرب و درصد",
+      "live": false
+    },
+    {
+      "name": "دیکته‌یار — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.dikteyar",
+      "icon": "assets/promo/icons/dikteyar.webp",
+      "isHub": false,
+      "tagline": "دیکتهٔ درس‌به‌درس کتاب فارسی، با صدای معلم",
+      "live": false
+    },
+    {
+      "name": "غواص اعداد — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.ghavas",
+      "icon": "assets/promo/icons/ghavas.webp",
+      "isHub": false,
+      "tagline": "شکار اعداد در اعماق اقیانوس",
+      "live": false
+    },
+    {
+      "name": "حباب‌های ریاضی — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.hobab",
+      "icon": "assets/promo/icons/hobab.webp",
+      "isHub": false,
+      "tagline": "حباب جواب درست را بترکان!",
+      "live": false
+    },
+    {
+      "name": "جزیرهٔ حواس پنجگانه — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.havas",
+      "icon": "assets/promo/icons/havas.webp",
+      "isHub": false,
+      "tagline": "گوی جادویی را به نگهبان درست برسان!",
+      "live": false
+    },
+    {
+      "name": "کارخانهٔ کلمه — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.karkhane",
+      "icon": "assets/promo/icons/karkhane.webp",
+      "isHub": false,
+      "tagline": "کلمه‌ها را در کارخانه بساز!",
+      "live": false
+    },
+    {
+      "name": "سفر آسمان — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.aseman",
+      "icon": "assets/promo/icons/aseman.webp",
+      "isHub": false,
+      "tagline": "خورشید و ماه را بچرخان!",
+      "live": false
+    },
+    {
+      "name": "بادکنک صداها — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.badkonak",
+      "icon": "assets/promo/icons/badkonak.webp",
+      "isHub": false,
+      "tagline": "صدای درست را بترکان!",
+      "live": false
+    },
+    {
+      "name": "هواشناس کوچک — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.havashenas",
+      "icon": "assets/promo/icons/havashenas.webp",
+      "isHub": false,
+      "tagline": "هوا را بشناس، آماده شو!",
+      "live": false
+    },
+    {
+      "name": "هلی‌کوپتر نجات — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.heli",
+      "icon": "assets/promo/icons/heli.webp",
+      "isHub": false,
+      "tagline": "عدد را پیدا کن، نجاتش بده!",
+      "live": false
+    },
+    {
+      "name": "جمله‌ساز — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.jomlesaz",
+      "icon": "assets/promo/icons/jomlesaz.webp",
+      "isHub": false,
+      "tagline": "واژه‌ها را بچین، جمله بساز!",
+      "live": false
+    },
+    {
+      "name": "کاشف کوچک — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.kashef",
+      "icon": "assets/promo/icons/kashef.webp",
+      "isHub": false,
+      "tagline": "با ذره‌بین پیدا کن!",
+      "live": false
+    },
+    {
+      "name": "تمیزِ تمیز — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.tamiz",
+      "icon": "assets/promo/icons/tamiz.webp",
+      "isHub": false,
+      "tagline": "بشوی، بساب، سالم بمان!",
+      "live": false
+    },
+    {
+      "name": "تندخوان — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.tondkhan",
+      "icon": "assets/promo/icons/tondkhan.webp",
+      "isHub": false,
+      "tagline": "کلمه را تند پیدا کن!",
+      "live": false
+    },
+    {
+      "name": "آزمایشگاه نیکی — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.azmayesh",
+      "icon": "assets/promo/icons/azmayesh.webp",
+      "isHub": false,
+      "tagline": "وصل کن، ترکیب کن، ببین چه می‌شود!",
+      "live": false
+    },
+    {
+      "name": "قورباغهٔ کلمات — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.ghoorbaghe",
+      "icon": "assets/promo/icons/ghoorbaghe.webp",
+      "isHub": false,
+      "tagline": "روی برگِ هم‌معنی بپر!",
+      "live": false
+    },
+    {
+      "name": "ایران‌گرد — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.irangard",
+      "icon": "assets/promo/icons/irangard.webp",
+      "isHub": false,
+      "tagline": "استان به استان سفر کن!",
+      "live": false
+    },
+    {
+      "name": "کارآگاه متن — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.karagah",
+      "icon": "assets/promo/icons/karagah.webp",
+      "isHub": false,
+      "tagline": "بخوان و سرنخ را پیدا کن!",
+      "live": false
+    },
+    {
+      "name": "خط زمان — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.khatzaman",
+      "icon": "assets/promo/icons/khatzaman.webp",
+      "isHub": false,
+      "tagline": "کدام اول بود؟",
+      "live": false
+    },
+    {
+      "name": "نقشه‌خوان — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.naghshe",
+      "icon": "assets/promo/icons/naghshe.webp",
+      "isHub": false,
+      "tagline": "جهت را پیدا کن، راه را بخوان!",
+      "live": false
+    },
+    {
+      "name": "شهر ما — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.shahrema",
+      "icon": "assets/promo/icons/shahrema.webp",
+      "isHub": false,
+      "tagline": "به هر کس کمکِ درست را برسان!",
+      "live": false
+    },
+    {
+      "name": "تقویم شمسی — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.taghvim",
+      "icon": "assets/promo/icons/taghvim.webp",
+      "isHub": false,
+      "tagline": "روز و ماه و فصل را بشناس!"
+    },
+    {
+      "name": "مداد جادویی — نیکی‌پو",
+      "package": "com.rahpoo.nikipoo.medad",
+      "icon": "assets/promo/icons/medad.webp",
+      "isHub": false,
+      "tagline": "مشق حرف و عدد با انگشت!",
+      "live": false
+    }
+  ]
+}
