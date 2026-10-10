@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "character": {
+    "com.rahpoo.c.bobi": "com.rahpoo.bobi",
+    "com.rahpoo.c.papi": "com.rahpoo.papi",
+    "com.rahpoo.c.spiderman": "com.rahpoo.spiderman",
+    "com.rahpoo.c.pjmask": "com.rahpoo.pjmask",
+    "com.rahpoo.c.mashamisha": "com.rahpoo.mashamisha",
+    "com.rahpoo.c.kungfupanda": "com.rahpoo.panda",
+    "com.rahpoo.c.oddbods": "com.rahpoo.oddbods",
+    "com.rahpoo.c.bubbleguppies": "com.rahpoo.pufferfish",
+    "com.rahpoo.c.tomjerry": "com.rahpoo.tom_jerry",
+    "com.rahpoo.c.ben10": "com.rahpoo.ben10",
+    "com.rahpoo.c.frozen": "com.rahpoo.frozen",
+    "com.rahpoo.c.ladybuggirl": "com.rahpoo.dokhtarkafshdozak"
+  },
+  "markets": {
+    "ca": {
+      "live": [
+        "com.rahpoo.nikipoo",
+        "com.rahpoo.bobi",
+        "com.rahpoo.ben10",
+        "com.rahpoo.frozen",
+        "com.rahpoo.nikipoo.tizbin",
+        "com.rahpoo.nikipoo.temsah",
+        "com.rahpoo.nikipoo.aseman",
+        "com.rahpoo.c.ladybuggirl",
+        "com.rahpoo.c.bobi",
+        "com.rahpoo.c.papi",
+        "com.rahpoo.c.spiderman",
+        "com.rahpoo.c.pjmask",
+        "com.rahpoo.c.mashamisha",
+        "com.rahpoo.c.kungfupanda",
+        "com.rahpoo.c.oddbods",
+        "com.rahpoo.c.bubbleguppies",
+        "com.rahpoo.c.tomjerry",
+        "com.rahpoo.c.ben10",
+        "com.rahpoo.c.frozen"
+      ],
+      "slot": ["com.rahpoo.nikipoo", "@character"],
+      "list": [
+        "com.rahpoo.nikipoo",
+        "@character",
+        "com.rahpoo.nikipoo.tizbin",
+        "com.rahpoo.nikipoo.temsah",
+        "com.rahpoo.nikipoo.aseman",
+        "@cameras"
+      ]
+    },
+    "mk": {
+      "live": [
+        "com.rahpoo.nikipoo",
+        "com.rahpoo.oddbods",
+        "com.rahpoo.pufferfish",
+        "com.rahpoo.c.bobi",
+        "com.rahpoo.c.papi",
+        "com.rahpoo.c.spiderman",
+        "com.rahpoo.c.pjmask",
+        "com.rahpoo.c.mashamisha",
+        "com.rahpoo.c.kungfupanda",
+        "com.rahpoo.c.oddbods",
+        "com.rahpoo.c.bubbleguppies",
+        "com.rahpoo.c.ben10",
+        "com.rahpoo.c.frozen"
+      ],
+      "slot": ["com.rahpoo.nikipoo", "@character"],
+      "list": [
+        "com.rahpoo.nikipoo",
+        "@character",
+        "com.rahpoo.nikipoo.tizbin",
+        "com.rahpoo.nikipoo.temsah",
+        "com.rahpoo.nikipoo.aseman",
+        "@cameras"
+      ]
+    }
+  },
+  "apps": {}
+}

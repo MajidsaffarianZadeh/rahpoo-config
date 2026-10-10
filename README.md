@@ -57,6 +57,42 @@ Their client ignores `min` whenever the store reports the installed build is alr
 so an early `min` cannot strand anyone. **That guard does not work on Myket**, which answers
 nothing at all — for `mk`, the one rule above still applies in full.
 
+## `camera-promo.json`
+
+What the twelve camera apps (`com.rahpoo.c.*`, from 1.6.1) advertise: the single icon on the
+camera screen (`slot`) and the all-apps dialog (`list`), per market.
+
+```json
+{
+  "schemaVersion": 1,
+  "character": { "com.rahpoo.c.bobi": "com.rahpoo.bobi", ... },
+  "markets": {
+    "ca": { "live": [...], "slot": ["com.rahpoo.nikipoo", "@character"], "list": [...] },
+    "mk": { ... }
+  },
+  "apps": { "com.rahpoo.x": { "fa": "…", "en": "…", "icon": "https://…/x.png", "kind": "mini" } }
+}
+```
+
+- **`live`** — the packages whose **current** version on that store is a working one. This is
+  the switch to flip when a review lands. A package missing here is never shown on that market,
+  whatever `slot` and `list` say. Leave a Nikipoo character app out while the store still serves
+  its old pre-2.x build: that build needs nikipoo.com and does not work.
+- **`slot`** — candidates in order. The camera shows the first one not yet installed. If all of
+  them are installed, it shows the first one and simply opens it.
+- **`list`** — the dialog, in this order. `@character` is the Nikipoo School character app
+  mapped from the camera in `character`. `@cameras` is the twelve cameras. The app you are in
+  is always dropped.
+- **`apps`** — only for a package the camera build does not already know. It needs a title and
+  an icon url, or it is skipped. The build knows Nikipoo School, the twelve character apps,
+  tizbin, temsah, aseman and the cameras.
+- `kind` (`school`, `character`, `mini`, `camera`) picks the words of the slot's dialog.
+- A market with no entry (and no `all` entry) shows no promotion at all. That covers irapps,
+  ch and ps today.
+- If the file does not parse, or its `schemaVersion` is not 1, the camera ignores it and uses
+  its bundled copy (`app/src/main/assets/camera-promo.json` in the camera repo). Keep that copy
+  in step when you ship a camera release.
+
 ## How the apps read this
 
 Three mirrors of this repo, tried in order until one answers:
