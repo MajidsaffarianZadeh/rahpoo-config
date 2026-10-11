@@ -1,0 +1,7 @@
+{
+  "ads": { "on": true, "interstitialEvery": 3, "interstitialFromLevel": 3, "bribesPerRound": 1, "lifeAdsPerDay": 5, "leaveEvery": 1, "banner": true },
+  "markets": {
+    "bazaar": { "ads": { "on": false } },
+    "myket": { "ads": { "on": false } }
+  }
+}

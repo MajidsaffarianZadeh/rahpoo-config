@@ -93,6 +93,26 @@ camera screen (`slot`) and the all-apps dialog (`list`), per market.
   its bundled copy (`app/src/main/assets/camera-promo.json` in the camera repo). Keep that copy
   in step when you ship a camera release.
 
+## `nakhand.json`
+
+Ad switches and pacing for «بخندی، باختی» (`com.rahpoo.nakhand`). Numbers and switches only; the
+game keeps only keys it knows, with the type of its own default, so a typo cannot break it.
+
+```json
+{
+  "ads": { "on": true, "interstitialEvery": 3, "interstitialFromLevel": 3, "bribesPerRound": 1,
+           "lifeAdsPerDay": 5, "leaveEvery": 1, "banner": true },
+  "markets": { "bazaar": { "ads": { "on": false } }, "myket": { "ads": { "on": false } } }
+}
+```
+
+- **`ads.on`** — master switch; off also hides the rewarded buttons (bribe, life). Ads need both
+  this and real ad ids in the build. Without this file the game's default is **off**.
+- **`markets`** — `play`, `bazaar`, `myket`; a market block overrides the shared one. Bazaar and
+  Myket stay off until the build carries Adivery ids.
+- Turning ads on reaches every installed build, test APKs with real AdMob ids included: never
+  tap a real ad on your own phone.
+
 ## How the apps read this
 
 Three mirrors of this repo, tried in order until one answers:
