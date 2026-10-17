@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "_comment": "Nikipoo hub remote switches (lib/core/billing/paywall_config.dart, lib/core/remote/book_map_config.dart, dar_rah_config.dart). Missing keys = app defaults. Paywall on/off is fixed at build time (NIKIPOO_PAYWALL=on in store builds).",
+  "book_map_enabled": true,
+  "dar_rah_pct": 50
+}
