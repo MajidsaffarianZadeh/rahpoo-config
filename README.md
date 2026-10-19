@@ -57,6 +57,20 @@ Their client ignores `min` whenever the store reports the installed build is alr
 so an early `min` cannot strand anyone. **That guard does not work on Myket**, which answers
 nothing at all — for `mk`, the one rule above still applies in full.
 
+## The cameras — `camera`, `min` only
+
+The twelve kids' cameras (`com.rahpoo.c.*`) read `update.json` from 1.6.4 (versionCode 1604).
+Like the nikipoo family they carry no `latest`: on Bazaar the client asks Bazaar itself
+(`BazaarUpdater`), and `min` is only for a build that must stop.
+
+- One key, `camera`, covers all twelve: they share one `versionCode`.
+- `camera_<last segment of the package>` (e.g. `camera_tomjerry`) overrides it for one app;
+  inside each entry the market wins over `all`.
+- Their Play key is **`ps`**.
+- Myket answers nothing, and the twelve are often on different versions there (an app stuck in
+  review), so on `mk` raise `min` only once that exact `versionCode` is live for **every** app the
+  key covers, or override the stragglers with their own `camera_<id>` entry.
+
 ## `camera-promo.json`
 
 What the twelve camera apps (`com.rahpoo.c.*`, from 1.6.1) advertise: the single icon on the
