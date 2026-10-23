@@ -235,6 +235,9 @@
         ],
         "interstitial": [
           "com.rahpoo.c.ben10/full-1-p.webp|com.rahpoo.c.ben10/full-1-l.webp"
+        ],
+        "video": [
+          "cameras/video-1-p.mp4|cameras/video-1-l.mp4"
         ]
       }
     },
@@ -254,6 +257,9 @@
         ],
         "interstitial": [
           "com.rahpoo.c.bobi/full-1-p.webp|com.rahpoo.c.bobi/full-1-l.webp"
+        ],
+        "video": [
+          "cameras/video-1-p.mp4|cameras/video-1-l.mp4"
         ]
       }
     },
@@ -273,6 +279,9 @@
         ],
         "interstitial": [
           "com.rahpoo.c.bubbleguppies/full-1-p.webp|com.rahpoo.c.bubbleguppies/full-1-l.webp"
+        ],
+        "video": [
+          "cameras/video-1-p.mp4|cameras/video-1-l.mp4"
         ]
       }
     },
@@ -292,6 +301,9 @@
         ],
         "interstitial": [
           "com.rahpoo.c.frozen/full-1-p.webp|com.rahpoo.c.frozen/full-1-l.webp"
+        ],
+        "video": [
+          "cameras/video-1-p.mp4|cameras/video-1-l.mp4"
         ]
       }
     },
@@ -311,6 +323,9 @@
         ],
         "interstitial": [
           "com.rahpoo.c.kungfupanda/full-1-p.webp|com.rahpoo.c.kungfupanda/full-1-l.webp"
+        ],
+        "video": [
+          "cameras/video-1-p.mp4|cameras/video-1-l.mp4"
         ]
       }
     },
@@ -330,6 +345,9 @@
         ],
         "interstitial": [
           "com.rahpoo.c.ladybuggirl/full-1-p.webp|com.rahpoo.c.ladybuggirl/full-1-l.webp"
+        ],
+        "video": [
+          "cameras/video-1-p.mp4|cameras/video-1-l.mp4"
         ]
       }
     },
@@ -349,6 +367,9 @@
         ],
         "interstitial": [
           "com.rahpoo.c.mashamisha/full-1-p.webp|com.rahpoo.c.mashamisha/full-1-l.webp"
+        ],
+        "video": [
+          "cameras/video-1-p.mp4|cameras/video-1-l.mp4"
         ]
       }
     },
@@ -368,6 +389,9 @@
         ],
         "interstitial": [
           "com.rahpoo.c.oddbods/full-1-p.webp|com.rahpoo.c.oddbods/full-1-l.webp"
+        ],
+        "video": [
+          "cameras/video-1-p.mp4|cameras/video-1-l.mp4"
         ]
       }
     },
@@ -387,6 +411,9 @@
         ],
         "interstitial": [
           "com.rahpoo.c.papi/full-1-p.webp|com.rahpoo.c.papi/full-1-l.webp"
+        ],
+        "video": [
+          "cameras/video-1-p.mp4|cameras/video-1-l.mp4"
         ]
       }
     },
@@ -406,6 +433,9 @@
         ],
         "interstitial": [
           "com.rahpoo.c.pjmask/full-1-p.webp|com.rahpoo.c.pjmask/full-1-l.webp"
+        ],
+        "video": [
+          "cameras/video-1-p.mp4|cameras/video-1-l.mp4"
         ]
       }
     },
@@ -425,6 +455,9 @@
         ],
         "interstitial": [
           "com.rahpoo.c.spiderman/full-1-p.webp|com.rahpoo.c.spiderman/full-1-l.webp"
+        ],
+        "video": [
+          "cameras/video-1-p.mp4|cameras/video-1-l.mp4"
         ]
       }
     },
@@ -444,6 +477,9 @@
         ],
         "interstitial": [
           "com.rahpoo.c.tomjerry/full-1-p.webp|com.rahpoo.c.tomjerry/full-1-l.webp"
+        ],
+        "video": [
+          "cameras/video-1-p.mp4|cameras/video-1-l.mp4"
         ]
       }
     },
@@ -596,6 +632,9 @@
         ],
         "interstitial": [
           "com.rahpoo.nikipoo/full-1-p.webp|com.rahpoo.nikipoo/full-1-l.webp"
+        ],
+        "video": [
+          "com.rahpoo.nikipoo/video-1-p.mp4|com.rahpoo.nikipoo/video-1-l.mp4"
         ]
       }
     },
@@ -653,6 +692,9 @@
         ],
         "interstitial": [
           "com.rahpoo.nikipoo.dikteyar/full-1-p.webp|com.rahpoo.nikipoo.dikteyar/full-1-l.webp"
+        ],
+        "video": [
+          "com.rahpoo.nikipoo.dikteyar/video-1-p.mp4|com.rahpoo.nikipoo.dikteyar/video-1-l.mp4"
         ]
       }
     },
