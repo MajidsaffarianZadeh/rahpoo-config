@@ -1,0 +1,1269 @@
+{
+  "schemaVersion": 1,
+  "base": "https://nikipoo.ir/ads/",
+  "share": {
+    "banner": 0.3,
+    "rect": 0.3,
+    "interstitial": 0.25,
+    "video": 0.25,
+    "rewarded": 0
+  },
+  "fillWhenEmpty": true,
+  "variety": {
+    "appCooldownHours": 12,
+    "appMaxPerDay": 3,
+    "creativeMaxViews": 6,
+    "creativeRestDays": 7,
+    "tapsWithoutInstall": 2,
+    "tapRestDays": 14,
+    "fullscreenGapSec": 180
+  },
+  "groups": {
+    "school": {
+      "weight": 3
+    },
+    "minis": {
+      "weight": 2
+    },
+    "cameras": {
+      "weight": 2
+    },
+    "characters": {
+      "weight": 1
+    },
+    "cards": {
+      "weight": 3
+    },
+    "parsa": {
+      "weight": 2
+    }
+  },
+  "hosts": {
+    "com.rahpoo.callbreak": {
+      "audience": "adult"
+    },
+    "com.rahpoo.cardgames": {
+      "audience": "adult"
+    },
+    "com.rahpoo.haftkhabis": {
+      "audience": "adult"
+    },
+    "com.rahpoo.hearts": {
+      "audience": "adult"
+    },
+    "com.rahpoo.hokm": {
+      "audience": "adult"
+    },
+    "com.rahpoo.shelem": {
+      "audience": "adult"
+    },
+    "com.rahpoo.spades": {
+      "audience": "adult"
+    },
+    "com.rahpoo.tarneeb": {
+      "audience": "adult"
+    },
+    "com.rahpoo.twentynine": {
+      "audience": "adult"
+    },
+    "com.rahpoo.twentyone": {
+      "audience": "adult"
+    },
+    "com.rahpoo.nakhand": {
+      "audience": "adult"
+    },
+    "ir.majidgames.quiz": {
+      "audience": "adult"
+    },
+    "*": {
+      "audience": "kids"
+    }
+  },
+  "markets": {
+    "ca": {
+      "live": [
+        "com.rahpoo.ben10",
+        "com.rahpoo.bobi",
+        "com.rahpoo.c.ben10",
+        "com.rahpoo.c.bobi",
+        "com.rahpoo.c.bubbleguppies",
+        "com.rahpoo.c.frozen",
+        "com.rahpoo.c.kungfupanda",
+        "com.rahpoo.c.ladybuggirl",
+        "com.rahpoo.c.mashamisha",
+        "com.rahpoo.c.oddbods",
+        "com.rahpoo.c.papi",
+        "com.rahpoo.c.pjmask",
+        "com.rahpoo.c.spiderman",
+        "com.rahpoo.c.tomjerry",
+        "com.rahpoo.callbreak",
+        "com.rahpoo.cardgames",
+        "com.rahpoo.frozen",
+        "com.rahpoo.haftkhabis",
+        "com.rahpoo.hearts",
+        "com.rahpoo.hokm",
+        "com.rahpoo.nikipoo",
+        "com.rahpoo.nikipoo.aseman",
+        "com.rahpoo.nikipoo.ghavas",
+        "com.rahpoo.nikipoo.havas",
+        "com.rahpoo.nikipoo.heli",
+        "com.rahpoo.nikipoo.hobab",
+        "com.rahpoo.nikipoo.karkhane",
+        "com.rahpoo.nikipoo.khatzaman",
+        "com.rahpoo.nikipoo.naghshe",
+        "com.rahpoo.nikipoo.shahrema",
+        "com.rahpoo.nikipoo.taghvim",
+        "com.rahpoo.nikipoo.tamiz",
+        "com.rahpoo.nikipoo.temsah",
+        "com.rahpoo.nikipoo.tizbin",
+        "com.rahpoo.nikipoo.tondkhan",
+        "com.rahpoo.nikipoo.tondotiz",
+        "com.rahpoo.shelem",
+        "com.rahpoo.spades",
+        "com.rahpoo.tarneeb",
+        "com.rahpoo.twentynine",
+        "com.rahpoo.twentyone",
+        "ir.majidgames.ludo",
+        "ir.majidgames.quiz"
+      ]
+    },
+    "mk": {
+      "live": [
+        "com.rahpoo.c.ben10",
+        "com.rahpoo.c.bobi",
+        "com.rahpoo.c.bubbleguppies",
+        "com.rahpoo.c.frozen",
+        "com.rahpoo.c.kungfupanda",
+        "com.rahpoo.c.mashamisha",
+        "com.rahpoo.c.oddbods",
+        "com.rahpoo.c.papi",
+        "com.rahpoo.c.pjmask",
+        "com.rahpoo.c.spiderman",
+        "com.rahpoo.c.tomjerry",
+        "com.rahpoo.callbreak",
+        "com.rahpoo.cardgames",
+        "com.rahpoo.hokm",
+        "com.rahpoo.nikipoo",
+        "com.rahpoo.oddbods",
+        "com.rahpoo.pufferfish",
+        "com.rahpoo.spades",
+        "com.rahpoo.tarneeb",
+        "com.rahpoo.twentynine",
+        "com.rahpoo.twentyone"
+      ]
+    }
+  },
+  "apps": {
+    "com.majidgames.mindlap": {
+      "group": "parsa",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "Mind Lap",
+      "creatives": {}
+    },
+    "com.majidgames.pixelbelt": {
+      "group": "parsa",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "Pixel Belt",
+      "creatives": {}
+    },
+    "com.majidgames.tilesnap": {
+      "group": "parsa",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "Tile Snap",
+      "creatives": {}
+    },
+    "com.rahpoo.ben10": {
+      "group": "characters",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "بازی‌های بن تن",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.ben10/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.ben10/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.ben10/full-1-p.webp|com.rahpoo.ben10/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.bobi": {
+      "group": "characters",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "بازی‌های باب اسفنجی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.bobi/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.bobi/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.bobi/full-1-p.webp|com.rahpoo.bobi/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.c.ben10": {
+      "group": "cameras",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "دوربین بن تن",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.c.ben10/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.c.ben10/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.c.ben10/full-1-p.webp|com.rahpoo.c.ben10/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.c.bobi": {
+      "group": "cameras",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "دوربین باب اسفنجی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.c.bobi/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.c.bobi/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.c.bobi/full-1-p.webp|com.rahpoo.c.bobi/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.c.bubbleguppies": {
+      "group": "cameras",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "دوربین ماهی بادکنکی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.c.bubbleguppies/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.c.bubbleguppies/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.c.bubbleguppies/full-1-p.webp|com.rahpoo.c.bubbleguppies/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.c.frozen": {
+      "group": "cameras",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "دوربین فروزن",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.c.frozen/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.c.frozen/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.c.frozen/full-1-p.webp|com.rahpoo.c.frozen/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.c.kungfupanda": {
+      "group": "cameras",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "دوربین پاندا کونگ فو کار",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.c.kungfupanda/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.c.kungfupanda/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.c.kungfupanda/full-1-p.webp|com.rahpoo.c.kungfupanda/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.c.ladybuggirl": {
+      "group": "cameras",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "دوربین دختر کفشدوزکی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.c.ladybuggirl/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.c.ladybuggirl/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.c.ladybuggirl/full-1-p.webp|com.rahpoo.c.ladybuggirl/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.c.mashamisha": {
+      "group": "cameras",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "دوربین میشا و ماشا",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.c.mashamisha/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.c.mashamisha/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.c.mashamisha/full-1-p.webp|com.rahpoo.c.mashamisha/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.c.oddbods": {
+      "group": "cameras",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "دوربین اودبودز",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.c.oddbods/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.c.oddbods/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.c.oddbods/full-1-p.webp|com.rahpoo.c.oddbods/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.c.papi": {
+      "group": "cameras",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "دوربین سگ های نگهبان",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.c.papi/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.c.papi/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.c.papi/full-1-p.webp|com.rahpoo.c.papi/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.c.pjmask": {
+      "group": "cameras",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "دوربین پی جی ماسک",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.c.pjmask/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.c.pjmask/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.c.pjmask/full-1-p.webp|com.rahpoo.c.pjmask/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.c.spiderman": {
+      "group": "cameras",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "دوربین مرد عنکبوتی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.c.spiderman/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.c.spiderman/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.c.spiderman/full-1-p.webp|com.rahpoo.c.spiderman/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.c.tomjerry": {
+      "group": "cameras",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "دوربین تام و جری",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.c.tomjerry/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.c.tomjerry/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.c.tomjerry/full-1-p.webp|com.rahpoo.c.tomjerry/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.callbreak": {
+      "group": "cards",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "کال‌بریک — پاسور بازی خانوادگی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.callbreak/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.callbreak/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.callbreak/full-1-p.webp|com.rahpoo.callbreak/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.cardgames": {
+      "group": "cards",
+      "audience": [
+        "adult"
+      ],
+      "weight": 2,
+      "fa": "پاسور - حکم، شلم و همه بازی های ورقی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.cardgames/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.cardgames/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.cardgames/full-1-p.webp|com.rahpoo.cardgames/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.dokhtarkafshdozak": {
+      "group": "characters",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "بازی های دختر کفشدوزکی",
+      "creatives": {}
+    },
+    "com.rahpoo.frozen": {
+      "group": "characters",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "بازی‌های السا و آنا",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.frozen/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.frozen/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.frozen/full-1-p.webp|com.rahpoo.frozen/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.haftkhabis": {
+      "group": "cards",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "هفت خبیث — پاسور بازی خانوادگی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.haftkhabis/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.haftkhabis/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.haftkhabis/full-1-p.webp|com.rahpoo.haftkhabis/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.hearts": {
+      "group": "cards",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "بی‌دل — پاسور بازی خانوادگی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.hearts/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.hearts/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.hearts/full-1-p.webp|com.rahpoo.hearts/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.hokm": {
+      "group": "cards",
+      "audience": [
+        "adult"
+      ],
+      "weight": 3,
+      "fa": "حکم — پاسور بازی خانوادگی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.hokm/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.hokm/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.hokm/full-1-p.webp|com.rahpoo.hokm/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.mashamisha": {
+      "group": "characters",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "بازی‌های ماشا و میشا",
+      "creatives": {}
+    },
+    "com.rahpoo.nikipoo": {
+      "group": "school",
+      "audience": [
+        "kids",
+        "parent"
+      ],
+      "weight": 1,
+      "fa": "مدرسه نیکی‌پو",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo/full-1-p.webp|com.rahpoo.nikipoo/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.aseman": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "سفر آسمان",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.aseman/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.aseman/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.aseman/full-1-p.webp|com.rahpoo.nikipoo.aseman/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.azmayesh": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "آزمایشگاه نیکی",
+      "creatives": {}
+    },
+    "com.rahpoo.nikipoo.badkonak": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "بادکنک صداها",
+      "creatives": {}
+    },
+    "com.rahpoo.nikipoo.dikteyar": {
+      "group": "minis",
+      "audience": [
+        "kids",
+        "parent"
+      ],
+      "weight": 1,
+      "fa": "دیکته‌یار",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.dikteyar/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.dikteyar/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.dikteyar/full-1-p.webp|com.rahpoo.nikipoo.dikteyar/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.ghavas": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "غواص اعداد",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.ghavas/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.ghavas/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.ghavas/full-1-p.webp|com.rahpoo.nikipoo.ghavas/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.ghoorbaghe": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "قورباغهٔ کلمات",
+      "creatives": {}
+    },
+    "com.rahpoo.nikipoo.havas": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "جزیرهٔ حواس پنجگانه",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.havas/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.havas/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.havas/full-1-p.webp|com.rahpoo.nikipoo.havas/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.havashenas": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "هواشناس کوچک",
+      "creatives": {}
+    },
+    "com.rahpoo.nikipoo.heli": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "هلی کوپتر نجات",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.heli/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.heli/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.heli/full-1-p.webp|com.rahpoo.nikipoo.heli/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.hobab": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "حباب‌های ریاضی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.hobab/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.hobab/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.hobab/full-1-p.webp|com.rahpoo.nikipoo.hobab/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.irangard": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "ایران‌گرد",
+      "creatives": {}
+    },
+    "com.rahpoo.nikipoo.jomlesaz": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "جمله‌ساز",
+      "creatives": {}
+    },
+    "com.rahpoo.nikipoo.karagah": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "کارآگاه متن",
+      "creatives": {}
+    },
+    "com.rahpoo.nikipoo.karkhane": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "کارخانهٔ کلمه",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.karkhane/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.karkhane/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.karkhane/full-1-p.webp|com.rahpoo.nikipoo.karkhane/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.kashef": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "کاشف کوچک",
+      "creatives": {}
+    },
+    "com.rahpoo.nikipoo.khatzaman": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "خط زمان",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.khatzaman/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.khatzaman/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.khatzaman/full-1-p.webp|com.rahpoo.nikipoo.khatzaman/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.medad": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "مداد جادویی",
+      "creatives": {}
+    },
+    "com.rahpoo.nikipoo.naghshe": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "نقشه‌خوان",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.naghshe/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.naghshe/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.naghshe/full-1-p.webp|com.rahpoo.nikipoo.naghshe/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.shahrema": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "شهر ما",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.shahrema/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.shahrema/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.shahrema/full-1-p.webp|com.rahpoo.nikipoo.shahrema/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.taghvim": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "تقویم شمسی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.taghvim/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.taghvim/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.taghvim/full-1-p.webp|com.rahpoo.nikipoo.taghvim/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.tamiz": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "تمیز تمیز",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.tamiz/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.tamiz/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.tamiz/full-1-p.webp|com.rahpoo.nikipoo.tamiz/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.temsah": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "تمساح شکمو",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.temsah/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.temsah/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.temsah/full-1-p.webp|com.rahpoo.nikipoo.temsah/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.tizbin": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "تیزبین باش",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.tizbin/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.tizbin/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.tizbin/full-1-p.webp|com.rahpoo.nikipoo.tizbin/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.tondkhan": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "تندخوان",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.tondkhan/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.tondkhan/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.tondkhan/full-1-p.webp|com.rahpoo.nikipoo.tondkhan/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.nikipoo.tondotiz": {
+      "group": "minis",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "تند و تیز",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.nikipoo.tondotiz/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.nikipoo.tondotiz/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.nikipoo.tondotiz/full-1-p.webp|com.rahpoo.nikipoo.tondotiz/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.ninjaturtles": {
+      "group": "characters",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "بازی های لاک پشتهای نینجا",
+      "creatives": {}
+    },
+    "com.rahpoo.oddbods": {
+      "group": "characters",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "بازی های اودبودز",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.oddbods/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.oddbods/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.oddbods/full-1-p.webp|com.rahpoo.oddbods/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.panda": {
+      "group": "characters",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "بازی های پاندای کونگ فو کار",
+      "creatives": {}
+    },
+    "com.rahpoo.papi": {
+      "group": "characters",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "بازی‌های سگ‌های نگهبان",
+      "creatives": {}
+    },
+    "com.rahpoo.pjmask": {
+      "group": "characters",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "بازی‌های پی‌جی ماسک",
+      "creatives": {}
+    },
+    "com.rahpoo.pufferfish": {
+      "group": "characters",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "بازی های ماهی بادکنکی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.pufferfish/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.pufferfish/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.pufferfish/full-1-p.webp|com.rahpoo.pufferfish/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.sheep": {
+      "group": "characters",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "بازی های بره ناقلا",
+      "creatives": {}
+    },
+    "com.rahpoo.shelem": {
+      "group": "cards",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "شلم — پاسور بازی خانوادگی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.shelem/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.shelem/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.shelem/full-1-p.webp|com.rahpoo.shelem/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.spades": {
+      "group": "cards",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "اسپیدز — پاسور بازی خانوادگی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.spades/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.spades/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.spades/full-1-p.webp|com.rahpoo.spades/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.spiderman": {
+      "group": "characters",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "بازی‌های مرد عنکبوتی",
+      "creatives": {}
+    },
+    "com.rahpoo.tarneeb": {
+      "group": "cards",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "قفون — پاسور بازی خانوادگی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.tarneeb/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.tarneeb/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.tarneeb/full-1-p.webp|com.rahpoo.tarneeb/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.tom_jerry": {
+      "group": "characters",
+      "audience": [
+        "kids"
+      ],
+      "weight": 1,
+      "fa": "بازی‌های تام و جری",
+      "creatives": {}
+    },
+    "com.rahpoo.twentynine": {
+      "group": "cards",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "بیست‌ونه — پاسور بازی خانوادگی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.twentynine/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.twentynine/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.twentynine/full-1-p.webp|com.rahpoo.twentynine/full-1-l.webp"
+        ]
+      }
+    },
+    "com.rahpoo.twentyone": {
+      "group": "cards",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "بیست‌ویک — بازی ورق خانوادگی",
+      "creatives": {
+        "banner": [
+          "com.rahpoo.twentyone/banner-1.webp"
+        ],
+        "rect": [
+          "com.rahpoo.twentyone/rect-1.webp"
+        ],
+        "interstitial": [
+          "com.rahpoo.twentyone/full-1-p.webp|com.rahpoo.twentyone/full-1-l.webp"
+        ]
+      }
+    },
+    "ir.majidgames.backgammon": {
+      "group": "parsa",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "تخته‌نرد",
+      "creatives": {}
+    },
+    "ir.majidgames.colortubes": {
+      "group": "parsa",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "لوله‌های رنگی",
+      "creatives": {}
+    },
+    "ir.majidgames.kalamechin": {
+      "group": "parsa",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "کلمه‌چین",
+      "creatives": {}
+    },
+    "ir.majidgames.ludo": {
+      "group": "parsa",
+      "audience": [
+        "kids",
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "منچ و مارپله",
+      "creatives": {
+        "banner": [
+          "ir.majidgames.ludo/banner-1.webp"
+        ],
+        "rect": [
+          "ir.majidgames.ludo/rect-1.webp"
+        ],
+        "interstitial": [
+          "ir.majidgames.ludo/full-1-p.webp|ir.majidgames.ludo/full-1-l.webp"
+        ]
+      }
+    },
+    "ir.majidgames.quiz": {
+      "group": "parsa",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "چی می دونی؟",
+      "creatives": {
+        "banner": [
+          "ir.majidgames.quiz/banner-1.webp"
+        ],
+        "rect": [
+          "ir.majidgames.quiz/rect-1.webp"
+        ],
+        "interstitial": [
+          "ir.majidgames.quiz/full-1-p.webp|ir.majidgames.quiz/full-1-l.webp"
+        ]
+      }
+    },
+    "ir.majidgames.reminder": {
+      "group": "parsa",
+      "audience": [
+        "adult"
+      ],
+      "weight": 1,
+      "fa": "یادآور",
+      "creatives": {}
+    },
+    "ir.majidgames.tizhooshan": {
+      "group": "parsa",
+      "audience": [
+        "parent"
+      ],
+      "weight": 1,
+      "fa": "تیزهوشان",
+      "creatives": {}
+    }
+  }
+}

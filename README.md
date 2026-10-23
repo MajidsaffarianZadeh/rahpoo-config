@@ -107,6 +107,31 @@ camera screen (`slot`) and the all-apps dialog (`list`), per market.
   its bundled copy (`app/src/main/assets/camera-promo.json` in the camera repo). Keep that copy
   in step when you ship a camera release.
 
+## `house-ads.json`
+
+House ads: our own apps and games advertised in the ad slots, beside Adivery (Tapsell is gone).
+Every Rahpoo app and Parsa's games read it. The design and its reasons are in
+`Rahpoo/docs/house-ads-design.md`. The creatives live on `nikipoo.ir/ads/`, not here.
+
+- **`share`**: per format (`banner`, `rect`, `interstitial`, `video`, `rewarded`), the part of
+  the slots that go to a house ad even when Adivery has one. With `fillWhenEmpty`, a slot Adivery
+  cannot fill always gets a house ad.
+- **`variety`**: per-user caps, all counted on the phone. A same-app cooldown, a daily cap per
+  app, a rest for a creative after a few views, and a rest for an app tapped twice without an
+  install.
+- **`groups`**: the first draw is a group, weighted. The second is an app inside it, so twelve
+  cameras do not crowd out one Nikipoo School.
+- **`hosts`**: which audience an app shows. Adult hosts are named one by one; `*` is `kids`.
+- **`apps[pkg].audience`**: who may see that app. A kids host shows only `kids` apps. An adult
+  host shows `adult` and `parent` apps. **Never put a card game in front of a child.**
+- **`markets.<m>.live`**: the packages with a public, working page on that store. A package goes
+  in only after its page answers. A Nikipoo character app goes in only once its store build is
+  2.x (the same list as `camera-promo.json`).
+- **`apps[pkg].creatives`**: paths under `base`; `a.webp|b.webp` is the portrait|landscape pair.
+  An app with no creative for a format is never drawn for that format.
+- **Every new app or game**, once published on any store, gets its entry, its creatives and its
+  `live` line as part of that release.
+
 ## `nakhand.json`
 
 Ad switches and pacing for «بخندی، باختی» (`com.rahpoo.nakhand`). Numbers and switches only; the
