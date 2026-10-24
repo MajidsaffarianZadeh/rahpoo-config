@@ -16,6 +16,8 @@
   },
   "markets": {
     "ca": {
+      "adUnlock": false,
+      "paidFeatures": ["background", "strip", "colour_in"],
       "live": [
         "com.rahpoo.nikipoo",
         "com.rahpoo.bobi",
@@ -48,6 +50,8 @@
       ]
     },
     "mk": {
+      "adUnlock": false,
+      "paidFeatures": ["background", "strip", "colour_in"],
       "live": [
         "com.rahpoo.nikipoo",
         "com.rahpoo.oddbods",
