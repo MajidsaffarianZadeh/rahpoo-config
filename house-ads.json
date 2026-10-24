@@ -499,6 +499,9 @@
         ],
         "interstitial": [
           "com.rahpoo.callbreak/full-1-p.webp|com.rahpoo.callbreak/full-1-l.webp"
+        ],
+        "video": [
+          "com.rahpoo.callbreak/video-1-p.mp4|com.rahpoo.callbreak/video-1-l.mp4"
         ]
       }
     },
@@ -518,6 +521,9 @@
         ],
         "interstitial": [
           "com.rahpoo.cardgames/full-1-p.webp|com.rahpoo.cardgames/full-1-l.webp"
+        ],
+        "video": [
+          "com.rahpoo.cardgames/video-1-p.mp4|com.rahpoo.cardgames/video-1-l.mp4"
         ]
       }
     },
@@ -565,6 +571,9 @@
         ],
         "interstitial": [
           "com.rahpoo.haftkhabis/full-1-p.webp|com.rahpoo.haftkhabis/full-1-l.webp"
+        ],
+        "video": [
+          "com.rahpoo.haftkhabis/video-1-p.mp4|com.rahpoo.haftkhabis/video-1-l.mp4"
         ]
       }
     },
@@ -584,6 +593,9 @@
         ],
         "interstitial": [
           "com.rahpoo.hearts/full-1-p.webp|com.rahpoo.hearts/full-1-l.webp"
+        ],
+        "video": [
+          "com.rahpoo.hearts/video-1-p.mp4|com.rahpoo.hearts/video-1-l.mp4"
         ]
       }
     },
@@ -603,6 +615,9 @@
         ],
         "interstitial": [
           "com.rahpoo.hokm/full-1-p.webp|com.rahpoo.hokm/full-1-l.webp"
+        ],
+        "video": [
+          "com.rahpoo.hokm/video-1-p.mp4|com.rahpoo.hokm/video-1-l.mp4"
         ]
       }
     },
@@ -1126,6 +1141,9 @@
         ],
         "interstitial": [
           "com.rahpoo.shelem/full-1-p.webp|com.rahpoo.shelem/full-1-l.webp"
+        ],
+        "video": [
+          "com.rahpoo.shelem/video-1-p.mp4|com.rahpoo.shelem/video-1-l.mp4"
         ]
       }
     },
@@ -1145,6 +1163,9 @@
         ],
         "interstitial": [
           "com.rahpoo.spades/full-1-p.webp|com.rahpoo.spades/full-1-l.webp"
+        ],
+        "video": [
+          "com.rahpoo.spades/video-1-p.mp4|com.rahpoo.spades/video-1-l.mp4"
         ]
       }
     },
@@ -1173,6 +1194,9 @@
         ],
         "interstitial": [
           "com.rahpoo.tarneeb/full-1-p.webp|com.rahpoo.tarneeb/full-1-l.webp"
+        ],
+        "video": [
+          "com.rahpoo.tarneeb/video-1-p.mp4|com.rahpoo.tarneeb/video-1-l.mp4"
         ]
       }
     },
@@ -1201,6 +1225,9 @@
         ],
         "interstitial": [
           "com.rahpoo.twentynine/full-1-p.webp|com.rahpoo.twentynine/full-1-l.webp"
+        ],
+        "video": [
+          "com.rahpoo.twentynine/video-1-p.mp4|com.rahpoo.twentynine/video-1-l.mp4"
         ]
       }
     },
@@ -1220,6 +1247,9 @@
         ],
         "interstitial": [
           "com.rahpoo.twentyone/full-1-p.webp|com.rahpoo.twentyone/full-1-l.webp"
+        ],
+        "video": [
+          "com.rahpoo.twentyone/video-1-p.mp4|com.rahpoo.twentyone/video-1-l.mp4"
         ]
       }
     },
