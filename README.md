@@ -105,7 +105,7 @@ camera screen (`slot`) and the all-apps dialog (`list`), per market.
   opened by watching an ad on that market. Missing: `false` where the build sells (ca, mk), `true`
   where it cannot (ps, none). Majid turned it off on 2026-10-24 because it ate the sales.
 - **`paidFeatures`** (camera 1.6.5+) — features that need the full version on that market:
-  `background`, `strip`, `colour_in`. Each works once for free first. Missing: all three where the
+  `background`, `strip`, `colour_in`, `challenge`. Each works once for free first. Missing: all three where the
   build sells, none on ps. `[]` frees them all.
 - A market with no entry (and no `all` entry) shows no promotion at all. That covers irapps,
   ch and ps today.
