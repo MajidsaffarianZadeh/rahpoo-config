@@ -124,7 +124,8 @@
         "com.rahpoo.twentynine",
         "com.rahpoo.twentyone",
         "ir.majidgames.ludo",
-        "ir.majidgames.quiz"
+        "ir.majidgames.quiz",
+        "ir.majidgames.tizhooshan"
       ]
     },
     "mk": {
@@ -1335,7 +1336,21 @@
       ],
       "weight": 1,
       "fa": "تیزهوشان",
-      "creatives": {}
+      "creatives": {
+        "banner": [
+          "ir.majidgames.tizhooshan/banner-1.webp"
+        ],
+        "rect": [
+          "ir.majidgames.tizhooshan/rect-1.webp"
+        ],
+        "interstitial": [
+          "ir.majidgames.tizhooshan/full-1-p.webp|ir.majidgames.tizhooshan/full-1-l.webp"
+        ]
+      },
+      "grades": [
+        5,
+        6
+      ]
     }
   }
 }
