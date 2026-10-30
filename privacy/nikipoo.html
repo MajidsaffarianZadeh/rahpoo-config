@@ -28,7 +28,7 @@
 
 <h1>سیاست حریم خصوصی — مدرسه نیکی‌پو</h1>
 <p class="meta">
-  برنامه‌ها: <code>com.rahpoo.nikipoo</code> و مینی‌اپ‌های نیکی‌پو (<code>com.rahpoo.nikipoo.*</code>)، نسخهٔ Google Play · آخرین به‌روزرسانی: ۶ آبان ۱۴۰۵ (۲۸ اکتبر ۲۰۲۶)
+  برنامه‌ها: <code>com.rahpoo.nikipoo</code> و مینی‌اپ‌های نیکی‌پو (<code>com.rahpoo.nikipoo.*</code>)، نسخهٔ Google Play · آخرین به‌روزرسانی: ۸ آبان ۱۴۰۵ (۳۰ اکتبر ۲۰۲۶)
 </p>
 
 <p>
@@ -43,6 +43,7 @@
   <li>نام کوچک یا لقبی که برای کودک وارد می‌کنید، پایهٔ تحصیلی و آواتار</li>
   <li>پیشرفت بازی: مرحله‌ها، ستاره‌ها، سکه‌ها و نشان‌ها</li>
   <li>تنظیمات: صدا و محدودیت زمان روزانه</li>
+  <li>خریدها: کدام بازی باز شده است (همان چیزی که Google Play دربارهٔ خرید می‌گوید)</li>
 </ul>
 <p>ما به این اطلاعات دسترسی نداریم.</p>
 
@@ -72,11 +73,16 @@
     تبلیغ (دیده شدن، لمس)، اطلاعات فنی عملکرد، و شناسهٔ مجموعهٔ برنامه (App set ID). هدف: نمایش
     تبلیغ، شمارش آن و جلوگیری از تقلب. شرح کامل در بخش بعد.
   </li>
+  <li>
+    <strong>خرید</strong> (Google Play، فقط اگر خریدی انجام شود): پرداخت را خود Google Play انجام
+    می‌دهد و ما هیچ اطلاعات کارت یا پرداختی نمی‌بینیم. برنامه فقط رویداد خرید (کدام محصول، مبلغ و
+    واحد پول، شناسهٔ سفارش) را بی‌هیچ اطلاعات شخصی به Firebase Analytics می‌فرستد تا فروش را بشماریم.
+  </li>
 </ul>
 
 <h2>تبلیغات و خرید</h2>
 <p>
-  <strong>مینی‌اپ‌های نیکی‌پو</strong> در Google Play با تبلیغ Google AdMob رایگان می‌مانند:
+  <strong>مینی‌اپ‌های نیکی‌پو</strong> در Google Play رایگان نصب می‌شوند و تبلیغ Google AdMob دارند:
   بنر، تبلیغ تمام‌صفحه بین مرحله‌ها، و تبلیغ جایزه‌ای که فقط اگر خود کودک بخواهد پخش می‌شود.
   تبلیغ‌ها این‌طور تنظیم شده‌اند:
 </p>
@@ -95,8 +101,11 @@
   نگه می‌دارد. خود برنامهٔ اصلی «مدرسه نیکی‌پو» در حال حاضر تبلیغ نشان نمی‌دهد.
 </p>
 <p>
-  نسخه‌های Google Play در حال حاضر خرید درون‌برنامه‌ای ندارند؛ اگر روزی اضافه شود، پرداخت فقط از
-  راه Google Play انجام می‌شود، پشت یک دروازهٔ والدین، و این صفحه پیش از آن به‌روز می‌شود.
+  <strong>خرید درون‌برنامه‌ای:</strong> هر مینی‌اپ یک خرید یک‌بارهٔ «بازی کامل» دارد که همهٔ
+  مرحله‌های همان بازی را باز می‌کند و تبلیغ را برمی‌دارد. بخشی از مرحله‌ها همیشه رایگان است و
+  هیچ خریدی برای بازی کردن لازم نیست؛ اشتراک و سکهٔ پولی در نسخه‌های Google Play نیست. پرداخت
+  فقط از صفحهٔ خود Google Play انجام می‌شود، که تأیید حساب گوگل را می‌خواهد و برای حساب کودک در
+  Family Link تأیید والدین را.
 </p>
 
 <h2>دسترسی‌ها</h2>
@@ -130,7 +139,7 @@
 
 <div class="en" lang="en">
   <h1>Privacy Policy — Nikipoo School</h1>
-  <p class="meta">Apps: <code>com.rahpoo.nikipoo</code> and the Nikipoo mini apps (<code>com.rahpoo.nikipoo.*</code>), Google Play versions · Last updated: 28 October 2026</p>
+  <p class="meta">Apps: <code>com.rahpoo.nikipoo</code> and the Nikipoo mini apps (<code>com.rahpoo.nikipoo.*</code>), Google Play versions · Last updated: 30 October 2026</p>
 
   <p>
     Nikipoo School and its mini apps are learning games for primary school children (grades 1 to 6).
@@ -142,7 +151,8 @@
   <p>
     Kept only in the app's own storage, never sent to us, and deleted when you uninstall: the first
     name or nickname you enter for your child, their school grade and avatar; game progress (levels,
-    stars, coins, badges); and settings (sound, daily time limit). We have no access to any of it.
+    stars, coins, badges); settings (sound, daily time limit); and purchases (which game is unlocked,
+    as Google Play reports it). We have no access to any of it.
   </p>
 
   <h2>Leaves your phone</h2>
@@ -171,11 +181,17 @@
       interactions (views, taps), technical performance data and the app set ID, for showing and
       measuring ads and preventing fraud. Details below.
     </li>
+    <li>
+      <strong>Purchases</strong> (Google Play, only if a purchase is made): Google Play handles the
+      payment and we never see any card or payment details. The app sends only the purchase event
+      (which product, amount and currency, order ID), with no personal information, to Firebase
+      Analytics so we can count sales.
+    </li>
   </ul>
 
   <h2>Ads and purchases</h2>
   <p>
-    The <strong>Nikipoo mini apps</strong> on Google Play stay free with Google AdMob ads: banners,
+    The <strong>Nikipoo mini apps</strong> on Google Play are free to install and show Google AdMob ads: banners,
     full-screen ads between levels, and rewarded ads that play only when the child chooses to watch
     one. The ads are set up as follows:
   </p>
@@ -193,8 +209,11 @@
     The main "Nikipoo School" app currently shows no ads.
   </p>
   <p>
-    The Google Play versions currently have no in-app purchases; if they are added, payment will go
-    only through Google Play, behind a parental gate, and this page will be updated first.
+    <strong>In-app purchases:</strong> each mini app offers one one-time "Full game" purchase that
+    unlocks all levels of that game and removes its ads. Part of the levels is always free and no
+    purchase is needed to play; the Google Play versions have no subscriptions and no paid coins.
+    Payment goes only through Google Play's own screen, which asks for the Google account's
+    confirmation and, for a child's account in Family Link, a parent's approval.
   </p>
 
   <h2>Permissions</h2>
