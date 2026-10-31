@@ -1,4 +1,5 @@
 {
   "_comment": "Remote switches for rumibakery: only keys the client already has as defaults are read, with the same JSON type; the market block overrides the shared one.",
+  "rate": {"on": true},
   "markets": {}
 }
