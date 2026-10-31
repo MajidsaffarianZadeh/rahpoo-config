@@ -87,6 +87,12 @@
     "gp":  { "min": 0 }
   },
 
+  "_rumibakery": "Rumi Bakery (com.vmap.rumibakery, nikipoo-kuchulu lib/app/update.dart), client since 0.5.5: min only, Play only (key gp, else all). Play In-App Updates answers whether a newer build exists; when Play says the installed build is the newest, min is ignored.",
+  "rumibakery": {
+    "all": { "min": 0 },
+    "gp":  { "min": 0 }
+  },
+
   "_camera": "The twelve kids' cameras (com.rahpoo.c.*), client since 1.6.4 (versionCode 1604): min only, like the nikipoo family - Bazaar is asked for newer builds through BazaarUpdater. One key for all twelve; add camera_<last segment of the package> (e.g. camera_tomjerry) to override one app. Their Play key is ps. Myket answers nothing, so on mk raise min only once that exact versionCode is live there, for every app the key covers.",
   "camera": {
     "all": { "min": 0 },

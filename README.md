@@ -138,6 +138,20 @@ Every Rahpoo app and Parsa's games read it. The design and its reasons are in
 - **Every new app or game**, once published on any store, gets its entry, its creatives and its
   `live` line as part of that release.
 
+## `rumibakery.json`
+
+Read by Rumi Bakery (`com.vmap.rumibakery`, `nikipoo-kuchulu/lib/app/remote.dart` `AppConfig`), at most every 6 h, cached. Play only, so no `markets` entries. Defaults live in the client; a key the client does not know, or a value of another type, changes nothing.
+
+| key | default | meaning |
+|---|---|---|
+| `rate.on` | `true` | Play's in-app review sheet after a won chapter and at the party (`lib/app/review.dart`) |
+| `rate.afterChapters` | `1` | ask only once the child has won this many chapters |
+| `rate.everyDays` | `3` | at most one ask in this many days (the first party skips the wait) |
+| `shelf.on` | `true` | the «MORE GAMES» shelf on the home screen |
+| `shelf.apps` | `[]` (= the built-in list) | which family apps the shelf shows, in order, by id of `lib/app/store.dart` |
+
+The app's row in `update.json` is `rumibakery` (`gp`, else `all`; min only).
+
 ## `nakhand.json`
 
 Ad switches and pacing for «بخندی، باختی» (`com.rahpoo.nakhand`). Numbers and switches only; the
