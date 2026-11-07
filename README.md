@@ -15,7 +15,7 @@ key; an app that is not listed is not governed.
 }
 ```
 
-- **top level** — the app id. `hokm`, `shelem`, `tarneeb`, `callbreak`, `spades`, `hearts`, `haftkhabis`, `twentynine`, `twentyone`, `nikipoo`, `tizbin`, `temsah`. One per app,
+- **top level** — the app id. `hokm`, `shelem`, `tarneeb`, `callbreak`, `spades`, `hearts`, `haftkhabis`, `twentynine`, `twentyone`, `nikipoo`, `tizbin`, `temsah`, `estesnaei` (Nikipoo special-needs app, forced-only gate). One per app,
   never renamed.
 - **second level** — the market: `ca` Cafe Bazaar, `mk` Myket, `all` fallback. Google Play is
   `ps` for the Java card games (`hokm`, `shelem`, `tarneeb`, `callbreak`, `spades`, `hearts`, `haftkhabis`, `twentynine`, `twentyone`) and `gp` for the nikipoo family — each app is keyed the way its own

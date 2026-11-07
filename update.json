@@ -87,6 +87,13 @@
     "gp":  { "min": 0 }
   },
 
+  "estesnaei": {
+    "all": { "min": 0 },
+    "ca":  { "min": 0 },
+    "mk":  { "min": 0 },
+    "gp":  { "min": 0 }
+  },
+
   "_rumibakery": "Rumi Bakery (com.vmap.rumibakery, nikipoo-kuchulu lib/app/update.dart), client since 0.5.5: min only, Play only (key gp, else all). Play In-App Updates answers whether a newer build exists; when Play says the installed build is the newest, min is ignored.",
   "rumibakery": {
     "all": { "min": 0 },
