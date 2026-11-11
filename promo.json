@@ -38,8 +38,7 @@
       "package": "com.rahpoo.nikipoo.dikteyar",
       "icon": "assets/promo/icons/dikteyar.webp",
       "isHub": false,
-      "tagline": "دیکتهٔ درس‌به‌درس کتاب فارسی، با صدای معلم",
-      "live": false
+      "tagline": "دیکتهٔ درس‌به‌درس کتاب فارسی، با صدای معلم"
     },
     {
       "name": "غواص اعداد — نیکی‌پو",
@@ -86,8 +85,7 @@
       "package": "com.rahpoo.nikipoo.badkonak",
       "icon": "assets/promo/icons/badkonak.webp",
       "isHub": false,
-      "tagline": "صدای درست را بترکان!",
-      "live": false
+      "tagline": "صدای درست را بترکان!"
     },
     {
       "name": "هواشناس کوچک — نیکی‌پو",
@@ -110,8 +108,7 @@
       "package": "com.rahpoo.nikipoo.jomlesaz",
       "icon": "assets/promo/icons/jomlesaz.webp",
       "isHub": false,
-      "tagline": "واژه‌ها را بچین، جمله بساز!",
-      "live": false
+      "tagline": "واژه‌ها را بچین، جمله بساز!"
     },
     {
       "name": "کاشف کوچک — نیکی‌پو",
@@ -142,24 +139,21 @@
       "package": "com.rahpoo.nikipoo.azmayesh",
       "icon": "assets/promo/icons/azmayesh.webp",
       "isHub": false,
-      "tagline": "وصل کن، ترکیب کن، ببین چه می‌شود!",
-      "live": false
+      "tagline": "وصل کن، ترکیب کن، ببین چه می‌شود!"
     },
     {
       "name": "قورباغهٔ کلمات — نیکی‌پو",
       "package": "com.rahpoo.nikipoo.ghoorbaghe",
       "icon": "assets/promo/icons/ghoorbaghe.webp",
       "isHub": false,
-      "tagline": "روی برگِ هم‌معنی بپر!",
-      "live": false
+      "tagline": "روی برگِ هم‌معنی بپر!"
     },
     {
       "name": "ایران‌گرد — نیکی‌پو",
       "package": "com.rahpoo.nikipoo.irangard",
       "icon": "assets/promo/icons/irangard.webp",
       "isHub": false,
-      "tagline": "استان به استان سفر کن!",
-      "live": false
+      "tagline": "استان به استان سفر کن!"
     },
     {
       "name": "کارآگاه متن — نیکی‌پو",
@@ -205,8 +199,7 @@
       "package": "com.rahpoo.nikipoo.medad",
       "icon": "assets/promo/icons/medad.webp",
       "isHub": false,
-      "tagline": "مشق حرف و عدد با انگشت!",
-      "live": false
+      "tagline": "مشق حرف و عدد با انگشت!"
     }
   ]
 }
